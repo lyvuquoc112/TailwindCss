@@ -1,0 +1,99 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Container & Spacing</title>
+  </head>
+  <body>
+    <!-- Margin -->
+    <!-- https://tailwindcss.com/docs/margin -->
+    <h3>1. Margin</h3>
+    <div class="m-0 bg-yellow-100">Maring all around (0px)</div>
+    <div class="m-1 bg-yellow-100">Maring all around (4px)</div>
+    <div class="m-2 bg-yellow-100">Maring all around (8px)</div>
+    <div class="m-3 bg-yellow-100">Maring all around (12px)</div>
+    <div class="m-4 bg-yellow-100">Maring all around (16px)</div>
+    <div class="m-5 bg-yellow-100">Maring all around (20px)</div>
+    <div class="m-6 bg-yellow-100">Maring all around (24px)</div>
+
+    <div class="mx-0 bg-yellow-100">Margin from X axies (0px left, right)</div>
+    <div class="mx-1 bg-yellow-100">Margin from X axies (4px left, right)</div>
+    <div class="mx-2 bg-yellow-100">Margin from X axies (8px left, right)</div>
+    <div class="mx-3 bg-yellow-100">Margin from X axies (12px left, right)</div>
+    <div class="mx-4 bg-yellow-100">Margin from X axies (16px left, right)</div>
+    <div class="mx-5 bg-yellow-100">Margin from X axies (20px left, right)</div>
+    <div class="mx-6 bg-yellow-100">Margin from X axies (24px left, right)</div>
+
+    <div class="my-0 bg-yellow-200">Margin from y axies (0px top, bottom)</div>
+    <div class="my-1 bg-yellow-200">Margin from y axies (4px top, bottom)</div>
+    <div class="my-2 bg-yellow-200">Margin from y axies (8px top, bottom)</div>
+    <div class="my-3 bg-yellow-200">Margin from y axies (12px top, bottom)</div>
+    <div class="my-4 bg-yellow-200">Margin from y axies (16px top, bottom)</div>
+    <div class="my-5 bg-yellow-200">Margin from y axies (20px top, bottom)</div>
+    <div class="my-6 bg-yellow-200">Margin from y axies (24px top, bottom)</div>
+
+    <div class="mt-0 bg-yellow-300">Margin Top (0px top)</div>
+    <div class="mt-1 bg-yellow-300">Margin Top (4px top)</div>
+    <div class="mt-2 bg-yellow-300">Margin Top (8px top)</div>
+    <div class="mt-3 bg-yellow-300">Margin Top (12px top)</div>
+    <div class="mt-4 bg-yellow-300">Margin Top (16px top)</div>
+    <div class="mt-5 bg-yellow-300">Margin Top (20px top)</div>
+    <div class="mt-6 bg-yellow-300">Margin Top (24px top)</div>
+
+    <div class="ml-0 bg-yellow-400">Margin Left (0px left)</div>
+    <div class="ml-1 bg-yellow-400">Margin Left (4px left)</div>
+    <div class="ml-2 bg-yellow-400">Margin Left (8px left)</div>
+    <div class="ml-3 bg-yellow-400">Margin Left (12px left)</div>
+    <div class="ml-4 bg-yellow-400">Margin Left (16px left)</div>
+    <div class="ml-5 bg-yellow-400">Margin Left (20px left)</div>
+    <div class="ml-6 bg-yellow-400">Margin Left (24px left)</div>
+
+    <div class="mt-0 bg-yellow-500">Margin Bottom (0px bottom)</div>
+    <div class="mt-1 bg-yellow-500">Margin Bottom (4px bottom)</div>
+    <div class="mt-2 bg-yellow-500">Margin Bottom (8px bottom)</div>
+    <div class="mt-3 bg-yellow-500">Margin Bottom (12px bottom)</div>
+    <div class="mt-4 bg-yellow-500">Margin Bottom (16px bottom)</div>
+    <div class="mt-5 bg-yellow-500">Margin Bottom (20px bottom)</div>
+    <div class="mt-6 bg-yellow-500">Margin Bottom (24px bottom)</div>
+
+    <div class="mr-0 bg-yellow-600">Margin Right (0px rignth)</div>
+    <div class="mr-1 bg-yellow-600">Margin Right (4px rignth)</div>
+    <div class="mr-2 bg-yellow-600">Margin Right (8px rignth)</div>
+    <div class="mr-3 bg-yellow-600">Margin Right (12px rignth)</div>
+    <div class="mr-4 bg-yellow-600">Margin Right (16px rignth)</div>
+    <div class="mr-5 bg-yellow-600">Margin Right (20px rignth)</div>
+    <div class="mr-6 bg-yellow-600">Margin Right (24px rignth)</div>
+
+    <!-- Arbitrary Spacing -->
+    <h3>2. Arbitrary Spacing</h3>
+    <div class="m-[50px] bg-slate-200">Spacing Around (50px)</div>
+
+    <!-- Padding -->
+    <!-- https://tailwindcss.com/docs/padding -->
+    <h3>3. Padding</h3>
+    <div class="p-4 bg-lime-100">Padding All Around</div>
+    <div class="px-4 bg-lime-200">Padding X axes</div>
+    <div class="py-4 bg-lime-300">Padding y axes</div>
+    <div class="pt-6 bg-lime-400">Padding Top</div>
+    <div class="pl-4 bg-lime-500">Padding Left</div>
+    <div class="pr-8 bg-lime-600">Padding Right</div>
+    <div class="pb-[50px] bg-lime-700">Padding Bottom</div>
+
+    <!-- https://tailwindcss.com/docs/space -->
+    <!-- Space Between X -->
+    <h3>Space Between X</h3>
+    <div class="flex space-x-4">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+    <!-- Space Between Y -->
+    <h3>Space Between y</h3>
+    <div class="flex flex-col space-y-4">
+      <div class="p-3 bg-teal-100">01</div>
+      <div class="p-3 bg-teal-200">02</div>
+      <div class="p-3 bg-teal-300">03</div>
+    </div>
+  </body>
+</html>
